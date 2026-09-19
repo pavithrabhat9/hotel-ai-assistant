@@ -1,0 +1,234 @@
+﻿{
+  "hotel": {
+    "name": "Simplotel Grand Hotel & Spa",
+    "tagline": "Where Luxury Meets Comfort",
+    "location": {
+      "address": "42 Marine Drive, Colaba",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "400005",
+      "nearbyLandmarks": ["Gateway of India (0.5 km)", "Chhatrapati Shivaji Terminus (2 km)", "Nariman Point (1 km)"]
+    },
+    "contact": {
+      "phone": "+91-22-6789-0000",
+      "email": "reservations@grandhorizon.in",
+      "website": "https://www.grandhorizon.in"
+    },
+    "starRating": 5
+  },
+
+  "policies": {
+    "checkIn": {
+      "topic": "Check-in Policy",
+      "time": "2:00 PM",
+      "earlyCheckIn": "Early check-in is available from 11:00 AM subject to availability and an additional charge of â‚¹1,500.",
+      "requiredDocuments": "A valid government-issued photo ID (Aadhaar, Passport, Driving Licence) is required at check-in for all guests.",
+      "lateArrival": "If you expect to arrive after 10:00 PM, please inform us in advance so we can hold your reservation."
+    },
+    "checkOut": {
+      "topic": "Check-out Policy",
+      "time": "11:00 AM",
+      "lateCheckOut": "Late check-out until 3:00 PM is available at â‚¹2,000, subject to availability. Beyond 3:00 PM is charged as an additional night.",
+      "expressCheckOut": "Express check-out is available â€” simply drop your key card at the front desk."
+    },
+    "cancellation": {
+      "topic": "Cancellation Policy",
+      "standard": "Free cancellation up to 48 hours before the check-in date. Cancellations made within 48 hours of check-in are charged one night's room rate.",
+      "nonRefundable": "Bookings made under promotional or non-refundable rates cannot be cancelled or modified.",
+      "noShow": "No-show guests are charged the full booking amount."
+    },
+    "children": {
+      "topic": "Children & Extra Bed Policy",
+      "policy": "Children under 5 stay free when sharing the parents' bed. An extra bed or crib can be arranged for â‚¹1,200 per night, subject to availability.",
+      "maxOccupancy": "Maximum occupancy per room type must be respected. Please check room capacity before booking."
+    },
+    "pets": {
+      "topic": "Pet Policy",
+      "policy": "Pets are not allowed on the property. Service animals with valid documentation are welcome."
+    },
+    "smoking": {
+      "topic": "Smoking Policy",
+      "policy": "Simplotel Grand is a 100% non-smoking property. A cleaning surcharge of â‚¹5,000 applies if smoking is detected in any room."
+    },
+    "payment": {
+      "topic": "Payment Policy",
+      "methods": "We accept Visa, MasterCard, American Express, UPI, and net banking. A pre-authorization hold equal to one night's tariff is placed on the card at check-in.",
+      "deposit": "A security deposit of â‚¹3,000 is required at check-in, refunded upon check-out after room inspection."
+    }
+  },
+
+  "rooms": [
+    {
+      "roomType": "Deluxe Room",
+      "description": "Elegant 32 sqm room with city views, king bed, marble bathroom, and a work desk.",
+      "capacity": 2,
+      "pricePerNight": 8500,
+      "currency": "INR",
+      "bedType": "King",
+      "size": "32 sqm",
+      "amenities": ["Free Wi-Fi", "55\" Smart TV", "Minibar", "In-room safe", "Rain shower", "Tea/coffee maker", "Complimentary bottled water"],
+      "view": "City view"
+    },
+    {
+      "roomType": "Premium Suite",
+      "description": "Spacious 54 sqm suite with a separate living area, sea-facing balcony, and luxury bath amenities.",
+      "capacity": 3,
+      "pricePerNight": 14500,
+      "currency": "INR",
+      "bedType": "King + Sofa bed",
+      "size": "54 sqm",
+      "amenities": ["Free Wi-Fi", "65\" Smart TV", "Minibar", "In-room safe", "Bathtub & rain shower", "Nespresso machine", "Balcony", "Complimentary newspaper", "Turndown service"],
+      "view": "Sea view"
+    },
+    {
+      "roomType": "Family Room",
+      "description": "Comfortable 45 sqm room designed for families, featuring twin beds and a pull-out sofa.",
+      "capacity": 4,
+      "pricePerNight": 12000,
+      "currency": "INR",
+      "bedType": "Twin beds + Pull-out sofa",
+      "size": "45 sqm",
+      "amenities": ["Free Wi-Fi", "55\" Smart TV", "Minibar", "In-room safe", "Bathtub", "Tea/coffee maker", "Child-safe fixtures", "Board games"],
+      "view": "Garden view"
+    },
+    {
+      "roomType": "Presidential Suite",
+      "description": "Luxurious 95 sqm suite with panoramic sea views, private dining area, jacuzzi, and butler service.",
+      "capacity": 4,
+      "pricePerNight": 35000,
+      "currency": "INR",
+      "bedType": "King + Twin (separate bedroom)",
+      "size": "95 sqm",
+      "amenities": ["Free Wi-Fi", "75\" Smart TV", "Premium minibar", "In-room safe", "Jacuzzi", "Steam shower", "Private dining", "Butler service", "Bose sound system", "Walk-in closet"],
+      "view": "Panoramic sea view"
+    }
+  ],
+
+  "amenities": {
+    "swimmingPool": {
+      "topic": "Swimming Pool",
+      "description": "Temperature-controlled rooftop infinity pool with stunning sea views.",
+      "hours": "6:00 AM â€“ 9:00 PM daily",
+      "details": "Poolside bar and sunbeds available. Children under 12 must be accompanied by an adult."
+    },
+    "spa": {
+      "topic": "Spa & Wellness",
+      "description": "Full-service Ananda Spa offering Ayurvedic treatments, aromatherapy, Swedish massage, and facials.",
+      "hours": "9:00 AM â€“ 9:00 PM daily",
+      "booking": "Advance booking recommended. In-room spa services available for suite guests."
+    },
+    "gym": {
+      "topic": "Fitness Centre",
+      "description": "State-of-the-art fitness centre with Technogym equipment, free weights, and yoga mats.",
+      "hours": "Open 24 hours",
+      "details": "Complimentary for all in-house guests. Personal trainers available on request (â‚¹1,500/session)."
+    },
+    "parking": {
+      "topic": "Parking",
+      "description": "Covered valet parking available.",
+      "pricing": "Complimentary for suite guests. â‚¹500/day for other room categories.",
+      "details": "Self-parking not available due to limited space. EV charging stations available."
+    },
+    "wifi": {
+      "topic": "Wi-Fi",
+      "description": "Complimentary high-speed Wi-Fi throughout the property, including all rooms, lobby, restaurants, and pool area.",
+      "speed": "Up to 100 Mbps."
+    },
+    "businessCentre": {
+      "topic": "Business Centre",
+      "description": "Fully equipped business centre with private meeting rooms, printing, and video-conferencing facilities.",
+      "hours": "8:00 AM â€“ 8:00 PM, Monday to Saturday",
+      "booking": "Meeting rooms can be booked through the front desk or concierge."
+    },
+    "laundry": {
+      "topic": "Laundry & Dry Cleaning",
+      "description": "Same-day laundry and dry-cleaning service.",
+      "details": "Items collected before 9:00 AM are returned by 7:00 PM the same day. Express 3-hour service available at 50% surcharge."
+    }
+  },
+
+  "dining": {
+    "breakfast": {
+      "topic": "Breakfast",
+      "included": "Breakfast is included with all room bookings.",
+      "type": "Buffet breakfast featuring Indian, Continental, and Asian cuisines.",
+      "restaurant": "Served at Saffron â€” our all-day dining restaurant on the ground floor.",
+      "hours": "7:00 AM â€“ 10:30 AM daily",
+      "roomService": "In-room breakfast can be ordered from the room service menu at no extra charge for suite guests."
+    },
+    "restaurants": [
+      {
+        "name": "Saffron",
+        "cuisine": "Multi-cuisine (Indian, Continental, Asian)",
+        "type": "All-day dining buffet & Ã  la carte",
+        "hours": "7:00 AM â€“ 11:00 PM"
+      },
+      {
+        "name": "Azure",
+        "cuisine": "Coastal & seafood",
+        "type": "Fine dining, Ã  la carte",
+        "hours": "12:30 PM â€“ 3:00 PM, 7:00 PM â€“ 11:00 PM"
+      },
+      {
+        "name": "The Horizon Lounge",
+        "cuisine": "Cocktails, wines & light bites",
+        "type": "Rooftop bar & lounge",
+        "hours": "5:00 PM â€“ 1:00 AM"
+      }
+    ],
+    "roomService": {
+      "topic": "Room Service",
+      "hours": "Available 24 hours",
+      "details": "Full dining menu available until 11:00 PM. Late-night menu (soups, sandwiches, snacks) from 11:00 PM to 6:00 AM."
+    }
+  },
+
+  "transport": {
+    "airportTransfer": {
+      "topic": "Airport Transfer",
+      "description": "Private airport transfers available from Chhatrapati Shivaji Maharaj International Airport.",
+      "pricing": "Sedan â‚¹2,500 | SUV â‚¹3,500 | Luxury (BMW/Mercedes) â‚¹6,000. One-way pricing.",
+      "booking": "Must be booked at least 24 hours in advance through the concierge."
+    },
+    "localTransport": {
+      "topic": "Local Transport",
+      "description": "Concierge can arrange taxis, car rentals, and guided city tours.",
+      "details": "Half-day Mumbai city tour: â‚¹4,500 per person (minimum 2 guests). Includes Gateway of India, Elephanta Caves, and Marine Drive."
+    }
+  },
+
+  "faq": [
+    {
+      "question": "Is there a casino at the hotel?",
+      "answer": "No, Simplotel Grand does not have a casino."
+    },
+    {
+      "question": "Is the hotel wheelchair accessible?",
+      "answer": "Yes, the hotel is fully wheelchair accessible with ramps, accessible rooms, and elevators throughout the property."
+    },
+    {
+      "question": "Can I store my luggage after check-out?",
+      "answer": "Yes, complimentary luggage storage is available at the bell desk for the day of check-out."
+    },
+    {
+      "question": "Do you arrange weddings or events?",
+      "answer": "Yes, we have a grand ballroom (capacity 500) and two smaller banquet halls. Contact our events team at events@grandhorizon.in for packages."
+    },
+    {
+      "question": "Is there a doctor on call?",
+      "answer": "Yes, a doctor is available on call 24/7. Please contact the front desk in case of a medical emergency."
+    }
+  ],
+
+  "quickStartTopics": [
+    "Check-in & Check-out times",
+    "Room types & pricing",
+    "Breakfast & dining",
+    "Swimming pool & spa",
+    "Cancellation policy",
+    "Airport transfer",
+    "Check room availability"
+  ]
+}
+
