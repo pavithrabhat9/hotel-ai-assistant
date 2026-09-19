@@ -177,7 +177,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-1">
           <div className="flex items-center justify-center">
             <img 
-              src="https://assets.simplotel.com/simplotel/image/upload/q_90,fl_progressive,w_190,f_auto,c_limit/simplotel-main-site/simplotellogowhite_ejluka" 
+              src="/simplotel-logo.png" 
               alt="Simplotel Logo" 
               className="h-5 w-auto opacity-70 grayscale" 
             />

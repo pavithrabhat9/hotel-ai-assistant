@@ -34,7 +34,7 @@ export default function HeroSection({ hotelName }: HeroSectionProps) {
           <div className="flex items-center gap-3">
             <div className="flex items-center">
               <img 
-                src="https://assets.simplotel.com/simplotel/image/upload/q_90,fl_progressive,w_190,f_auto,c_limit/simplotel-main-site/simplotellogowhite_ejluka" 
+                src="/simplotel-logo.png" 
                 alt="Simplotel Logo" 
                 className="h-8 w-auto" 
               />
