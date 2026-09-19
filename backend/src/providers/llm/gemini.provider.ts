@@ -18,11 +18,12 @@ export class GeminiProvider implements LLMProvider {
     // Build Gemini tools from our tool definitions
     const geminiTools: Tool[] | undefined = tools && tools.length > 0
       ? [{
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           functionDeclarations: tools.map(t => ({
             name: t.name,
             description: t.description,
             parameters: this.convertToGeminiSchema(t.parameters),
-          })),
+          })) as any,
         }]
       : undefined;
 
