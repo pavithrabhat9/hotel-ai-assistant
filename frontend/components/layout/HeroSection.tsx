@@ -36,7 +36,7 @@ export default function HeroSection({ hotelName }: HeroSectionProps) {
               <img 
                 src="/simplotel-logo.png" 
                 alt="Simplotel Logo" 
-                className="h-8 w-auto" 
+                className="h-12 w-auto" 
               />
             </div>
             <span className="hidden sm:block text-white/30 text-lg">|</span>

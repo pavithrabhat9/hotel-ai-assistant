@@ -179,7 +179,7 @@ export default function Home() {
             <img 
               src="/simplotel-logo.png" 
               alt="Simplotel Logo" 
-              className="h-5 w-auto opacity-70 grayscale" 
+              className="h-7 w-auto opacity-70 grayscale" 
             />
           </div>
           <p className="text-[11px] text-white/40">
